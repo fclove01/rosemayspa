@@ -869,6 +869,7 @@ color: var(--mellis-base);
   }
   
   .spa-special__offer {
+    cursor: pointer;
     position: absolute;
     top: 50%;
     left: -120px;
