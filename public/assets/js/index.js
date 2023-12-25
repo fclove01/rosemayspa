@@ -42,6 +42,7 @@ if(btn){
         setTimeout(() => {
             if(btn.className == 'btn btn-success'){
                 btn.className = 'btn btn-primary'
+                btn.textContent = "BOOK NOW"
             }
         }, 2000)
       })
