@@ -97,8 +97,9 @@ header {
     background: rgba(0, 0, 0, 0.5); /* Màu đen với độ trong suốt 0.5 */
     pointer-events: none;
 }
-
-
+form i {
+  color: var(--mellis-base);
+}
 section {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -173,12 +174,12 @@ section {
 }
 
 .text-1 h1 {
-    font-family: 'Libre Baskerville';
+    font-family: 'serif';
     margin-bottom: 30px;
 }
 .text-1 p.s {
-    margin-bottom: 70px;
-    margin-top: 65px;
+    margin-bottom: 40px;
+    margin-top: 28px;
 }
 .jarallax {
     height: 500px;
@@ -867,6 +868,8 @@ color: var(--mellis-base);
   .spa-special__img img {
     width: 100%;
   }
+
+
   
   .spa-special__offer {
     cursor: pointer;

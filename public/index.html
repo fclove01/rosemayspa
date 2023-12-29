@@ -29,12 +29,12 @@
             <div class="right d-flex align-items-center">
                 <div class="me-2 hide-on-mobile ">
                     <i class="bi bi-geo-alt-fill"></i>
-                    <span>388 Nguyễn Đỗ Cung, Phường Thanh Sơn (Khu K1)</span>
+                    <span>389 Nguyễn Đỗ Cung, Phường Thanh Sơn (Khu K1)</span>
                 </div>
                 <div class="phone me-2 hide-on-mobile">
                     <i class="bi bi-telephone-fill"></i>
-                    <a href="tel:0372009290" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
-                        037 200 9290</a>
+                    <a href="tel:0902549189" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                        090 254 9189</a>
                 </div>
                 <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Book Now</button>
             </div>
@@ -128,7 +128,6 @@
                                     
                                 </div>
                             </div>
-                           
                         </div>
                         <div class="col-xl-6">
                             <div class="text-1">
@@ -137,8 +136,34 @@
                                 </div>
                                 <h1>Rosémary Healings <br> nhìn thấy gì?</h1>
                                 <p class="s" >Nhu cầu chăm sóc cơ thể của khách hàng Làn da khách hàng chưa được chăm sóc đúng cách, cung cấp dinh dưỡng cho làn da khách hàng Tâm trí được chữa lành, thư giãn hoàn toàn ( Không gian xanh, hương thơm, âm nhạc , trà (hoa cúc, táo đỏ , kỹ tử, quế hoa ).</p>
-                            </div>
-                            
+                            </div>   
+                            <form class="border rounded" id="f1">
+                                <div class="row p-3">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="name_" class="form-label"> <i class="bi bi-person-circle me-2"></i>Tên khách hàng</label>
+                                            <input required type="text" class="form-control" id="name_">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="tel_" class="form-label"> <i class="bi bi-telephone-fill me-2"></i>Số điện thoại</label>
+                                            <input required type="tel" class="form-control" id="tel_" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email_" class="form-label"><i class="bi bi-envelope-at me-2"></i>Email</label>
+                                            <input required type="email" class="form-control" id="email_" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex align-items-center justify-content-center">
+                                        <div class="text-center">
+                                            <div class="fs-1 fw-bold">Giảm 30%</div>
+                                            <div class="mb-2">Khi đăng ký online</div>
+                                            <span class="loader d-none" id="loader2"></span>
+                                            <button type="submit" class="btn btn-primary" id="submit2">Đăng ký ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+   
                         </div>
                     </div>
                 </section>
@@ -659,7 +684,7 @@
                                     </div>
                                     
                                     <ul class="footer-widget__timing-list list-unstyled">
-                                        <li> <a href="tel:+8437 200 9290" style="text-decoration: none;">037 200 9290</a></li>
+                                        <li> <a href="tel:+84902549189" style="text-decoration: none;">090 254 9189</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -674,7 +699,7 @@
                                         <a href="https://www.facebook.com/rosemaryhealing01" target="_blank"><i class="bi bi-send-plus-fill"></i></a>
                                     </div>
 
-                                    <p>388 Nguyễn Đỗ Cung,<br> Phường Thanh Sơn ( Khu K1) <br> Phan Rang- Thap Cham, Vietnam</p>
+                                    <p>389 Nguyễn Đỗ Cung,<br> Phường Thanh Sơn (Khu K1) <br> Phan Rang- Thap Cham, Vietnam</p>
                                 </div>
                             </div>
                         </div>
@@ -694,18 +719,22 @@
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <h1 class="modal-title fs-4">Đặt lịch để nhận khuyến mãi</h1>
+                <h1 class="modal-title fs-4">Giảm 30%  khi đăng ký online</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form id="myForm">
                         <div class="mb-3">
-                          <label for="InputName" class="form-label">Tên khách hàng</label>
+                          <label for="InputName" class="form-label"><i class="bi bi-person-circle me-2"></i> Tên khách hàng</label>
                           <input required type="text" class="form-control" id="InputName"  >
                         </div>
                         <div class="mb-3">
-                          <label for="InputPhone" class="form-label">Số điện thoại</label>
+                          <label for="InputPhone" class="form-label"><i class="bi bi-envelope-at me-2"></i>Số điện thoại</label>
                           <input required type="tel" class="form-control" id="InputPhone" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="email_2" class="form-label"><i class="bi bi-envelope-at me-2"></i>Email</label>
+                            <input type="email" class="form-control" id="email_2" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <select class="form-select" id="services">
@@ -724,7 +753,7 @@
                             <label for="note">Ghi chú</label>
                         </div>
                         <div class="d-flex flex-row-reverse mt-4 mb-2">
-                            <span class="loader d-none"></span>
+                            <span class="loader d-none" id="loader1"></span>
                             <button type="submit" class="btn btn-primary" id="submit">BOOK NOW</button>
                         </div>
                     </form>
